@@ -1,0 +1,85 @@
+# Firebaseのconfigは現在未使用のためコメントアウトしている
+
+# 設定が終わったら以下を実行
+# flutter pub run flutter_flavorizr
+# VSCodeかAndroidStudioを選択できる
+ide: "vscode"
+flavors:
+  prod:
+    app:
+      name: "Sample Flutter Flavorizr"
+    android:
+      applicationId: "com.sample.flutter.flavorizr.prod"
+      # firebase:
+      #   config: "lib/core/firebase/prod/google-services.json"
+    ios:
+      bundleId: "com.sample.flutter.flavorizr.prod"
+      # firebase:
+      #   config: "lib/core/firebase/prod/GoogleService-Info.plist"
+    macos:
+      bundleId: "com.sample.flutter.flavorizr.prod"
+      # firebase:
+      #   config: "lib/core/firebase/prod/GoogleService-Info.plist"
+  stg:
+    app:
+      name: "Sample Flutter Flavorizr Stg"
+    android:
+      applicationId: "com.sample.flutter.flavorizr.stg"
+      # firebase:
+      #   config: "lib/core/firebase/stg/google-services.json"
+    ios:
+      bundleId: "com.sample.flutter.flavorizr.stg"
+      # firebase:
+      #   config: "lib/core/firebase/stg/GoogleService-Info.plist"
+    macos:
+      bundleId: "com.sample.flutter.flavorizr.stg"
+      # firebase:
+      #   config: "lib/core/firebase/stg/GoogleService-Info.plist"
+  dev:
+    app:
+      name: "Sample Flutter Flavorizr Dev"
+    android:
+      applicationId: "com.sample.flutter.flavorizr.dev"
+      # firebase:
+      #   config: "lib/core/firebase/dev/google-services.json"
+    ios:
+      bundleId: "com.sample.flutter.flavorizr.dev"
+      # firebase:
+      #   config: "lib/core/firebase/dev/GoogleService-Info.plist"
+    macos:
+      bundleId: "com.sample.flutter.flavorizr.dev"
+      # firebase:
+      #   config: "lib/core/firebase/dev/GoogleService-Info.plist"
+# INFO: 不要なものはコメントアウトする
+# instructions:
+# - assets:download
+# - assets:extract
+# - android:androidManifest
+# - android:buildGradle
+# - android:dummyAssets
+# - android:icons
+# - flutter:flavors
+# - flutter:app
+# - flutter:pages
+# - flutter:main
+# - flutter:targets
+# - ios:podfile
+# - ios:xcconfig
+# - ios:buildTargets
+# - ios:schema
+# - ios:dummyAssets
+# - ios:icons
+# - ios:plist
+# - ios:launchScreen
+# - macos:podfile
+# - macos:xcconfig
+# - macos:configs
+# - macos:buildTargets
+# - macos:schema
+# - macos:dummyAssets
+# - macos:icons
+# - macos:plist
+# - google:firebase
+# - huawei:agconnect
+# - assets:clean
+# - ide:config
