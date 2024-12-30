@@ -10,7 +10,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: F.title,
+      title: Flavor.title,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -28,14 +28,8 @@ class App extends StatelessWidget {
       show
           ? Banner(
               location: BannerLocation.topStart,
-              message: F.name,
-              color: switch (F.appFlavor) {
-                // withOpacityはFlutter3.27.0でDeprecatedになったのでwithValuesを使う
-                FlavorType.dev => Colors.yellow.withValues(alpha: 0.6),
-                FlavorType.prod => Colors.green.withValues(alpha: 0.6),
-                FlavorType.stg => Colors.blue.withValues(alpha: 0.6),
-                _ => Colors.grey.withValues(alpha: 0.6),
-              },
+              message: Flavor.name,
+              color: Flavor.color,
               textStyle: TextStyle(
                   fontWeight: FontWeight.w700,
                   fontSize: 12.0,
