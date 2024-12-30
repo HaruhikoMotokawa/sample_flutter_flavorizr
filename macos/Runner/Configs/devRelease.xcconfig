@@ -1,7 +1,7 @@
 #include "../../Flutter/devRelease.xcconfig"
 #include "Warnings.xcconfig"
 
-FLUTTER_TARGET=lib/main_dev.dart
+FLUTTER_TARGET=lib/flavors/main_dev.dart
 ASSET_PREFIX=dev
 BUNDLE_NAME=Sample Flutter Flavorizr Dev
 BUNDLE_DISPLAY_NAME=Sample Flutter Flavorizr Dev

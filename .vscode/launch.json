@@ -10,7 +10,7 @@
                 "--flavor",
                 "dev"
             ],
-            "program": "lib/main_dev.dart"
+            "program": "lib/flavors/main_dev.dart"
         },
         {
             "name": "stg Debug",
@@ -21,7 +21,7 @@
                 "--flavor",
                 "stg"
             ],
-            "program": "lib/main_stg.dart"
+            "program": "lib/flavors/main_stg.dart"
         },
         {
             "name": "prod Debug",
@@ -32,7 +32,7 @@
                 "--flavor",
                 "prod"
             ],
-            "program": "lib/main_prod.dart"
+            "program": "lib/flavors/main_prod.dart"
         },
         // {
         //     "name": "prod Profile",

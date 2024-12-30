@@ -1,7 +1,7 @@
 #include "../../Flutter/prodDebug.xcconfig"
 #include "Warnings.xcconfig"
 
-FLUTTER_TARGET=lib/main_prod.dart
+FLUTTER_TARGET=lib/flavors/main_prod.dart
 ASSET_PREFIX=prod
 BUNDLE_NAME=Sample Flutter Flavorizr
 BUNDLE_DISPLAY_NAME=Sample Flutter Flavorizr
