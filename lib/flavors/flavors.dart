@@ -11,6 +11,10 @@ class Flavor {
 
   static String get name => appFlavor?.name ?? '';
 
+  static bool get isProd => appFlavor == FlavorType.prod;
+  static bool get isStg => appFlavor == FlavorType.stg;
+  static bool get isDev => appFlavor == FlavorType.dev;
+
   static String get title {
     switch (appFlavor) {
       case FlavorType.prod:
