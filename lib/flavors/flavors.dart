@@ -37,7 +37,7 @@ class Flavor {
       case FlavorType.dev:
         return Colors.yellow.withValues(alpha: 0.6);
       default:
-        // withOpacityはFlutter3.27.0以降で非推奨になったので、withAlphaを使う
+        // withOpacityはFlutter3.27.0以降で非推奨になったので、withValues(alpha:)を使う
         return Colors.grey.withValues(alpha: 0.6);
     }
   }
